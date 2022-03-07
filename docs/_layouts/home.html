@@ -1,0 +1,117 @@
+---
+layout: default
+---
+
+<div class="home">
+  <div class="w3-sidebar w3-sand w3-bar-block w3-hide-large w3-animate-left" id="navDemo">
+      <div class="bar-item">
+          <button class=" w3-button w3-xlarge w3-left w3-hover-none " onclick="location.href=''"><i class="fa fa-home"></i></button>
+          <button class=" w3-button w3-xlarge w3-right w3-hover-none " onclick="w3_close()">&times;</button>
+      </div><br><br><br>
+      <a href="me" class="menu-item w3-bar-item w3-button w3-hover-sand ">Me</a>
+      <a href="aesthetic" class="menu-item w3-bar-item w3-button w3-hover-sand ">Aesthetic</a>
+      <a href="techy" class="menu-item w3-bar-item w3-button w3-hover-sand ">Techy</a>
+      <a href="contact" class="menu-item w3-bar-item w3-button w3-hover-sand ">Contact</a>
+  </div>
+
+
+  <a href="#top" ><img id="backtop" src="ass/up.png" alt="arrow"></a>
+  <!--Content-->
+  <div  class="my-container w3-display-container "  >
+      <img class="img-1 topimg mySlides  w3-animate-fading"  srcset="images/mosaic-cover-mobile.jpg 480w,
+           images/mosaic-cover.jpg 800w"
+
+           style="transition:ease-out;transition-duration: 3s;" src="images/mosaic-cover.jpg" alt="pink background picture">
+      <img class="img-2 topimg mySlides  w3-animate-fading"  srcset="images/mosaic-cover-mobile-2.jpg 480w,
+           images/mosaic-cover-2.jpg 800w"
+           sizes="(max-width: 1000px) 800px,
+          1600px" src="images/mosaic-cover-2.jpg" alt="pink background picture">
+      <img class="img-3 topimg mySlides  w3-animate-fading"  srcset="images/mosaic-cover-mobile-3.jpg 480w,
+           images/mosaic-cover-3.jpg 800w"
+           sizes="(max-width: 1000px) 800px,
+          1600px"
+           src="images/mosaic-cover-3.jpg" alt="pink background picture">
+      <img class="img-4 topimg mySlides  w3-animate-fading"  srcset="images/mosaic-cover-mobile-4.jpg 480w,
+           images/mosaic-cover-4.jpg 800w"
+           sizes="(max-width: 1000px) 800px,
+          1600px" src="images/mosaic-cover-4.jpg" alt="pink background picture">
+
+      <div class="w3-display-middle w3-center w3-hide-small w3-hide-medium">
+          <span class="w3-xxxlarge w3-text-sand w3-hover-text-light-grey menu-item w3-hover-none "><b>Welcome.</b></span>
+      </div>
+
+      <div class="w3-display-topright w3-right-align w3-hide-small w3-hide-medium">
+          <br><br><br>
+          <span class="w3-xlarge w3-text-white w3-wide" style="text-transform: uppercase;letter-spacing: 0.15em;">&#160;Hi, I'm Xiaohan,<br> &#160;21 yrs old,<br> &#160;doing EE undergrad.</span><br>
+      </div>
+
+      <div class="w3-display-middle w3-center w3-hide-large">
+          <span class="w3-xxxlarge w3-text-sand w3-hover-text-light-grey menu-item w3-hover-none "><b>Welcome.</b></span>
+      </div>
+
+      <div class="w3-display-topright w3-right-align w3-hide-large">
+          <br><br><br>
+          <span class="w3-large w3-text-white w3-wide" style="text-transform: uppercase;letter-spacing: 0.15em;">&#160;Hi, I'm Xiaohan,<br> &#160;21 yrs old,<br> &#160;doing EE undergrad.</span><br>
+      </div>
+
+
+
+  </div>
+
+
+
+
+  <!-- About Container -->
+  <div class="w3-container" >
+      <div class="w3-content content" style="max-width:700px">
+          <h1 class="w3-center w3-padding-64"><span class=" menu-item" style="font-family:'Francois One','Open Sans Condensed','lucida grande', 'lucida sans unicode', lucida, helvetica, 'Hiragino Sans GB',sans-serif">Why Xiaohan built this?</span></h1>
+          {{ content }}
+      </div>
+      <br><br><br><br>
+
+
+      <div class="w3-content content w3-center w3-large" style="max-width:700px" >
+          <p>If you would like to get in touch — <a href="mailto:pxh330@gmail.com" class="menu-item"><b>email me</b></a></p>
+          <br><br>
+          <p class="w3-medium">You are also welcome to DM me via</p>
+          <a href="https://www.instagram.com/xiaohan._peng/" ><i class="fab fa-instagram w3-xlarge"></i></a>&#160;&#160;&#160;
+          <a href="https://www.facebook.com/profile.php?id=100004547269134" ><i class="fab fa-facebook-square w3-xlarge"></i></a>&#160;&#160;&#160;
+          <a href="images/wechat.jpg" ><i class="fab fa-weixin w3-large"></i></a>
+          <br><br><br><br>
+          <p class="w3-small">Proudly designed and coded by myself.</p>
+          <div class="w3-small">
+              <p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text">This work by
+                  <a rel="cc:attributionURL" href="https://pxh.me.uk"><span rel="cc:attributionName">Xiaohan Peng</span>
+              </a>is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</a>
+                  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0"><img src="images/cc.xlarge.png" style="height:22px!important;margin-left: 3px;vertical-align:text-bottom"></a>
+              </p></div><br>
+      </div>
+
+  </div>
+</div>
+
+
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+</div>

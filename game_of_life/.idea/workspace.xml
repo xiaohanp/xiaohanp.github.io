@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3cbf9b9-0b43-4b1f-b4c0-527b7ea45051" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/capture.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otsu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="22YUlq2saptcAtiuwyHRIsZOCDo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\Github\game_of_life\sharon" />
+      <recent name="D:\Desktop\renyi\styles" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3cbf9b9-0b43-4b1f-b4c0-527b7ea45051" name="Default Changelist" comment="" />
+      <created>1640014167721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640014167721</updated>
+      <workItem from="1640014168894" duration="6733000" />
+      <workItem from="1640036262319" duration="10978000" />
+      <workItem from="1641136663921" duration="678000" />
+      <workItem from="1641208238822" duration="4167000" />
+      <workItem from="1641238994303" duration="1373000" />
+      <workItem from="1641286976561" duration="3728000" />
+      <workItem from="1641293320274" duration="602000" />
+<<<<<<< HEAD
+      <workItem from="1641333422745" duration="2378000" />
+      <workItem from="1641373329698" duration="1942000" />
+      <workItem from="1641375315504" duration="152000" />
+      <workItem from="1641375626271" duration="2283000" />
+=======
+>>>>>>> parent of 463bdae (update button)
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="510" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1640017538327">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="510" y="215" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1640017538327" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1641239766797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/-1920.0.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1641239766797" />
+    <state x="222" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1640043201157">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="222" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.0.1280.687/0.0.1536.824@0.0.1536.824" timestamp="1640043201157" />
+  </component>
+</project>

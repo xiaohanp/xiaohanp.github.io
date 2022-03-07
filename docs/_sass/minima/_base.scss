@@ -1,0 +1,187 @@
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.content {
+    width:85%;
+}
+
+.menu-item{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.menu-item:after {
+
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: darkgrey;
+    transition: width 0.1s ease 0s, left 0.5s ease 0s;
+    width: 0;
+}
+.menu-item:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+
+
+.bgimg-2{
+
+width:78%;
+height:auto;
+
+}
+
+.bgimg-3{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+.my-container{
+    position:absolute;
+    height: 900px;
+    z-index:0;
+    background-image: url("../images/mosaic-cover-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.topimg {
+    z-index: 1;
+    display:block;
+    width: 100%;
+    height:900px;
+}
+
+#bg3-1{
+    background-image: url('../images/birmingham/2.jpg')
+}
+
+#bg3-2{
+    background-image: url('../images/iceland/2.jpg')
+}
+#bg3-3{
+    background-image: url('../images/paris/11.jpg')
+}
+#bg3-4{
+    background-image: url('../images/nottingham/10.jpg')
+}
+#bg3-5{
+    background-image: url('../images/munich/20.jpg')
+}
+#bg3-6{
+    background-image: url('../images/my_wonderful_things/3.jpg')
+}
+
+
+
+
+
+.bgimg-4{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 550px;
+}
+#backtop{
+    animation-name:backshake;
+    height: auto;
+    width:30px;
+    position:fixed;
+    bottom:5%;
+    right:1%;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    z-index: 3;
+}
+#profile{
+    animation-name:sharon;
+    height: auto;
+    width:100px;
+    position:absolute;
+
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    z-index: 0;
+}
+
+
+@keyframes backshake {
+    0% { transform: translate(0px, 0px) rotate(0deg); }
+    20% { transform: translate(0px, 5px) rotate(0deg); }
+    40% { transform: translate(0px, 0px) rotate(0deg); }
+    60% { transform: translate(0px, -2px) rotate(0deg); }
+    80% { transform: translate(0px, 1px) rotate(0deg); }
+    100% { transform: translate(0px, 0px) rotate(0deg); }
+}
+
+@keyframes sharon {
+    0% { transform: translate(0px, 0px) rotate(0deg); }
+    20% { transform: translate(3px, 5px) rotate(10deg); }
+    40% { transform: translate(0px, 0px) rotate(0deg); }
+    60% { transform: translate(-3px, -2px) rotate(-10deg); }
+    80% { transform: translate(0px, 1px) rotate(0deg); }
+
+}
+
+@media only screen and (max-device-width: 1000px) {
+
+    .topimg {
+        z-index: 1;
+        min-height: 1000px;
+        width:auto;
+        max-width: 100%;
+        display:block;
+
+    }
+
+    .my-container{
+        position:absolute;
+        height: 1000px;
+        z-index:0;
+        background-image: url("../images/mosaic-cover-mobile-3.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+    }
+
+}
+@media only screen and (min-device-width: 1700px) {
+
+    .topimg {
+        z-index: 1;
+        min-height: 1100px;
+        width:auto;
+        max-width: 100%;
+        display:block;
+
+    }
+
+    .my-container{
+        position:absolute;
+        height: 1100px;
+        z-index:0;
+        background-image: url("../images/mosaic-cover-mobile-3.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+    }
+
+}
