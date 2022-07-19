@@ -1,0 +1,63 @@
+exports.availableMoodTypes = [
+  {
+    art: ["Soothing", "Relaxing", "Happy", "Calming", "Poetic", "Beautiful"],
+    music: ["Soothing", "Relaxing", "Happy", "Calming", "Jazz"],
+  },
+  {
+    art: [
+      "Uplifting",
+      "Happy",
+      "Animal",
+      "Forest",
+      "Sea",
+      "Beach",
+      "Mountain",
+      "Water",
+      "Tree",
+      "Street",
+      "Avenue",
+      "Soft",
+      "Tender",
+    ],
+    music: ["Funk", "Meditation", "Soft", "Tender"],
+  },
+  {
+    art: [
+      "Landscape",
+      "Monet",
+      "Impressionism",
+      "Woman",
+      "Man",
+      "Insightful",
+      "Knowledge",
+      "Interesting",
+    ],
+    music: ["Energy", "Insightful", "Knowledge", "Interesting", "Joyful"],
+  },
+  {
+    art: [
+      "Modern",
+      "Abstract",
+      "Kandinsky",
+      "Paul Klee",
+      "Franz Marc",
+      "Indie",
+      "Road",
+      "Trip",
+    ],
+    music: ["Pop", "Rock", "Indie", "Fun", "Uplifting"],
+  },
+  {
+    art: [
+      "Ecstatic",
+      "Fun",
+      "Joke",
+      "Cool",
+      "Exciting",
+      "Play",
+      "Keith Haring",
+      "Andy Warhol",
+    ],
+    music: ["Dance", "Electronic", "Ecstatic", "Fun", "Playful"],
+  },
+];

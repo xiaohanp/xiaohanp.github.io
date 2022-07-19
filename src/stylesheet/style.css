@@ -1,0 +1,85 @@
+.artworkImage {
+    max-height: 800px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+h1 {
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 12vh;
+}
+
+p,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+
+div{
+    font-family: "Open Sans", sans-serif;
+}
+
+#miserable {
+    background-size: cover;
+    background-image: url("../assets/mood_image/the_apostle_paul_1942.9.59.jpg");
+}
+#sad {
+    background-size: cover;
+    background-image: url("../assets/mood_image/nonchaloir_(repose)_1948.16.1.jpg");
+}
+#okay {
+    background-size: cover;
+    background-image: url("../assets/mood_image/chaim_soutine_1963.10.47.jpg");
+}
+#happy {
+    background-size: cover;
+    background-image: url("../assets/mood_image/the_smiling_girl_1937.1.55.jpg");
+}
+#ecstatic {
+    background-size: cover;
+    background-image: url("../assets/mood_image/the_concert_2013.38.1.jpg");
+}
+
+.iframe_container {
+    width: 95%;
+    min-height: 60vh;
+}
+
+a:hover {
+    color: rgb(150, 150, 150);
+}
+
+
+#app {
+    max-width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #606c38, #fefae0, #faedcd, #d4a373);
+    background-size: 200% 200%;
+    animation: gradient 8s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.moodyLogo
+{
+    font-family: "Goldleaf", sans-serif;
+}
+
+.row>*
+{
+    flex-shrink: 1 !important;
+}
