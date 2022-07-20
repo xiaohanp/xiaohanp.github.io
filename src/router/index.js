@@ -6,7 +6,7 @@ import SignIn from "../pages/SignIn.vue";
 import SignUp from "../pages/SignUp.vue";
 
 const routes = [
-  { path: "/", component: HomePage, name: "HomePage" },
+  { path: "/", component: HomePage, name: "HomePage", meta: {title: "Xiaohan's Home",}},
   { path: "/art-music", component: ArtAndMusic, name: "ArtAndMusicPage" },
   { path: "/my-collection", component: Collection, name: "Collection" },
   { path: "/sign-in", component: SignIn, name: "SignIn" },
@@ -16,6 +16,11 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes, // short for `routes: routes`
+});
+
+router.beforeEach((to, from, next)=>{
+  document.title=`${to.meta.title}`;
+  next();
 });
 
 export default router;
