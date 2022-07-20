@@ -7,6 +7,6 @@ module.exports = defineConfig({
     },
   },
   transpileDependencies: ['quasar'],
-  publicPath: process.env.NODE_ENV === "production" ? "/xiaohanp.github.io/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/xiaohanp.github.io/src" : "/",
 },
 );
