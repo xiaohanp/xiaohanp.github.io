@@ -1,0 +1,17 @@
+@inproceedings{Peng2024:DesignPrompt,
+author = {Peng, Xiaohan and Koch, Janin and Mackay, Wendy E.},
+title = {DesignPrompt: Using Multimodal Interaction for Design Exploration with Generative AI},
+year = {2024},
+isbn = {9798400705830},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3643834.3661588},
+doi = {10.1145/3643834.3661588},
+abstract = {Visually oriented designers often struggle to create effective generative AI (GenAI) prompts. A preliminary study identified specific issues in composing and fine-tuning prompts, as well as needs in accurately translating intentions into rich input. We developed DesignPrompt, a moodboard tool that lets designers combine multiple modalities — images, color, text — into a single GenAI prompt and tweak the results. We ran a comparative structured observation study with 12 professional designers to better understand their intent expression, expectation alignment and transparency perception using DesignPrompt and text input GenAI. We found that multimodal prompt input encouraged designers to explore and express themselves more effectively. Designer’s interaction preferences change according to their overall sense of control over the GenAI and whether they are seeking inspiration or a specific image. Designers developed innovative uses of DesignPrompt, including developing elaborate multimodal prompts and creating a multimodal prompt pattern to maximize novelty while ensuring consistency.},
+booktitle = {Proceedings of the 2024 ACM Designing Interactive Systems Conference},
+pages = {804–818},
+numpages = {15},
+keywords = {Creativity Support Tool, Design Practice, Generative AI, Human-AI Ideation, Human-AI Interaction, Moodboard},
+location = {Copenhagen, Denmark},
+series = {DIS '24}
+}
