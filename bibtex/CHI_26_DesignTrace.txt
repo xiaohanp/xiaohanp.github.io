@@ -1,0 +1,15 @@
+@inproceedings{peng2026:designtrace,
+author = {Peng, Xiaohan and Haldar, Debanjana and Koch, Janin and Mackay, Wendy E.},
+title = {DesignTrace: Exploring, Iterating and Tracking Design Alternatives with GenAI},
+year = {2026},
+isbn = {9798400722783}
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3772318.3791036},
+doi = {10.1145/3772318.3791036},
+abstract = {Creativity support tools have begun to incorporate GenAI for exploring ideas. However, our preliminary study with nine designers showed that current GenAI tools lack explicit support for iteratively evolving, reflecting upon and tracking design alternatives. We developed DesignTrace, an early-stage GenAI design tool that allows designers to experiment with semantically relevant visual variations in an interactive design space. Its representation captures the progression of designers’ visual and semantic ideas through command histories, state tracking, and an interactive branching structure. A study of twelve professional designers shows that DesignTrace’s palette helps express, explore, and reflect on design intentions. Its interactive branching structure helps them maintain visual consistency across design iterations; remember and revisit earlier design decisions; and see connections across ideas. Our work shows how re-envisioning GenAI-based interfaces around explicit design traces enable designers to benefit from generative capabilities while maintaining control as they explore design variants.},
+booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},
+keywords = {Creativity Support Tools, Human-AI Interaction, Design Practice, Generative AI},
+location = {Barcelona, Spain},
+series = {CHI '26}
+}

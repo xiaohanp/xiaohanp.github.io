@@ -1,0 +1,9 @@
+@article{Peng2024:DesigningExpressiveInteraction,
+  title = {Designing {{Expressive Interaction}} with {{Generative Artificial Intelligence}}},
+  booktitle = {{{HHAI}} 2024: {{Hybrid Human AI Systems}} for the {{Social Good}}},
+  author = {Peng, Xiaohan},
+  year = {2024},
+  pages = {409-417},
+  publisher = {IOS Press},
+  doi = {10.3233/FAIA240215},
+  }
